@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Gives the site a gradient, and makes text centered and have not ugly font woohoo */
 body {
     font-family:Helvetica;
     text-align:center;
@@ -11,15 +12,16 @@ body {
 }
 
 .sus {
-    font-size:x-large;
+    font-size:18px;
 }
 
-.snazzy {
+/* makes anything that has the id snazzy have a black outline (i think its pretty neat)*/
+#snazzy {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    font-size:x-large;
 }
 
+/* affects buttons and how they look/work */
 .buttonAppearance {
     background-color:#703fff;
     border: 2px solid black;
@@ -28,10 +30,17 @@ body {
     font-size: 15px;
     border-radius: 8px;
     transition-duration: 0.4s;
-    display:inline-block
+    display:inline-block;
   }
 
 .buttonAppearance:hover {
     background-color:white;
     color:#703fff;
+}
+
+/* you cant see the music hahaahaha loser */
+
+.moosic {
+  width:0px;
+  height:0px;
 }
