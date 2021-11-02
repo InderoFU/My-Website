@@ -1,7 +1,7 @@
 // JS buttons that open a new window for the button that is pressed
 
 function twitterFunc() {
-    window.location.replace("https://www.twitter.com/InderoFU");
+    window.open("https://www.twitter.com/InderoFU");
 } 
     
 function instagramFunc() {
@@ -17,5 +17,5 @@ function githubFunc() {
 }
 
 function discordFunc() {
-  window.open("https://www.augprep.org/")
+  window.open("https://discord.gg/FgjdxHDFCb")
 }
