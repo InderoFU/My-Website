@@ -1,39 +1,73 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Gives the site a gradient, and makes text centered and have not ugly font woohoo */
 body {
-    font-family:Helvetica;
-    text-align:center;
-    background-image: linear-gradient(to bottom right, #00ffff, #25bfff, #4b7fff, #703fff, #9600ff);
-    min-height: 100vh;
-    color: white;
+  font-family:Helvetica;
+  text-align:center;
+  background-image: linear-gradient(to bottom right, #00ffff, #25bfff, #4b7fff, #703fff, #9600ff);
+  min-height: 100vh;
+  color: white;
 }
 
 .sus {
-    font-size:18px;
+  font-size:18px;
 }
 
 /* makes anything that has the id snazzy have a black outline (i think its pretty neat)*/
 #snazzy {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 /* affects buttons and how they look/work */
 .buttonAppearance {
-    background-color:#703fff;
-    border: 2px solid black;
-    color: white;
-    padding: 15px 10px;
-    font-size: 15px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    display:inline-block;
-  }
+  background-color:#703fff;
+  border: 2px solid black;
+  color: white;
+  padding: 15px 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  display:inline-block;
+}
 
 .buttonAppearance:hover {
-    background-color:white;
-    color:#703fff;
+  background-color:white;
+  color:#703fff;
+}
+
+#diffPage {
+  background-color:#703fff;
+  border: 2px solid black;
+  color: white;
+  padding: 15px 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  display:block;
+}
+
+#diffPage:hover {
+  background-color:white;
+  color:#703fff;
+}
+
+/* qr code stuff */
+.qrCode {
+  width:75px;
+  height:75px;
+}
+
+#credit {
+  font-size:12px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
