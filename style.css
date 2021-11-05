@@ -65,9 +65,16 @@ body {
 }
 
 a:link {
-  color: white;
+  color: blue;
+  text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: blue;
+}
+
+/* about me text is centered */
+.div1 {
+  width:50%;
+  margin:auto;
 }
