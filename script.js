@@ -25,7 +25,7 @@ function aboutMe() {
 }
 
 function main() {
-  window.location.replace("index.html")
+  window.location.replace("indero.html")
 }
 
 function twitchFunc() {
