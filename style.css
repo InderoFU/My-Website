@@ -39,6 +39,7 @@ body {
 }
 
 #diffPage {
+  margin:auto;
   background-color:#703fff;
   border: 2px solid black;
   color: white;
