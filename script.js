@@ -8,10 +8,6 @@ function instagramFunc() {
   window.open("https://www.instagram.com/InderoFU");
 } 
 
-function youtubeFunc() {
-  window.open("https://www.youtube.com/channel/UCNt37CLMZNT8F_dsqTkRdW");
-}
-
 function githubFunc() {
   window.open("https://github.com/InderoFU");
 }
@@ -25,9 +21,5 @@ function aboutMe() {
 }
 
 function main() {
-  window.location.replace("indero.html")
-}
-
-function twitchFunc() {
-  window.open('https://www.twitch.tv/InderoFU')
+  window.location.replace("index.html")
 }
